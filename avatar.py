@@ -12,7 +12,7 @@ class AvatarApp:
         self.eye_size = 50  # Tamaño del ojo
         #self.eye_size = 100
         self.obstacle_x, self.obstacle_y = 250, 300
-        self.obstacle_size = 600
+        self.obstacle_size = 700
         self.obstacle_size = 200
         # Dibujar avatar (cuerpo) y su ojo
         self.avatar = self.canvas.create_oval(self.avatar_x, self.avatar_y,
