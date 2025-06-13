@@ -37,7 +37,7 @@ class Votante():
         cantidad = 0
         for i in votantes:
             if i.getEdad() > 20 and i.getEdad() <= 30:  # Verifica si la edad está entre 21 y 30 años
-                cantidad += 1
+                cantidad += 2
         print('La cantidad de votantes entre 20 y 30 años es: ', cantidad)
     
     # Método para contar la cantidad de votantes mayores de 30 años
